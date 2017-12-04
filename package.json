@@ -1,0 +1,27 @@
+{
+  "name": "koa-api",
+  "version": "1.0.0",
+  "description": "Create, Get, Update, Delete APIs in koajs. Modular project structure. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "koa",
+    "node-koa",
+    "koa-api",
+    "api",
+    "node-project-structure",
+    "project-structure",
+    "crud"
+  ],
+  "author": "Parth Mahajan",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "koa": "^2.4.1",
+    "lodash": "^4.17.4"
+  }
+}
