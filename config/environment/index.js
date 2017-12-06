@@ -39,9 +39,20 @@ const all = {
   /**
   * Logs Configuration
   */
-  log:{
+  log: {
     path: path.join(__dirname, './../../logs', process.env.NODE_ENV, 'project-name.' + process.env.NODE_ENV + '.log')
-  }
+  },
+
+  /**
+   * MongoDB Connections
+   */
+  mongoDB: {
+    uri: 'mongodb://localhost/user-demo',
+    options: {
+      useMongoClient: true
+    },
+    connect: true
+  },
 }
 
 /**

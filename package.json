@@ -22,6 +22,9 @@
   "dependencies": {
     "bunyan": "^1.8.12",
     "koa": "^2.4.1",
-    "lodash": "^4.17.4"
+    "koa-better-body": "^3.0.4",
+    "koa-router": "^7.3.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.13.6"
   }
 }
